@@ -6,7 +6,7 @@ export const Home = ()=>{
 
     return(
         <C.Container>
-            <div>opa</div>
+            <div> home </div>
         </C.Container>
         
     );
