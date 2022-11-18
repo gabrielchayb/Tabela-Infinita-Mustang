@@ -1,27 +1,38 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    border: 1px solid #555;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-
-    .image{
-        margin-right: 5px; 
 
     }
 
-    input{
-        border: 0;
-        background: transparent;
-        outline: 0; 
-        color: #000;
-        font-size: 18px;
-        flex:1;
-        
+`;
 
+export const NavBar = styled.div`
+
+
+
+`;
+
+export const Imagem = styled.div`
+    img{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
     }
 
+    label{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Bebas Kai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 203.959px;
+    line-height: 150%;
+/* or 306px */
+
+    letter-spacing: 0.12em;
+
+    color: #EBEBEB;
+    }
+
+    }
 `;
